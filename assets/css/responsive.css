@@ -1,0 +1,474 @@
+/* ========================================
+   RESPONSIVE DESIGN - DOWN WITH THE BOOGIE
+   ======================================== */
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    
+    /* Navigation */
+    .nav-links {
+        gap: 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    /* Hero Section */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .disco-ball {
+        font-size: 3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .mic {
+        font-size: 2.5rem;
+        left: 0%;
+        bottom: 20%;
+    }
+    
+    .headphones {
+        font-size: 2.5rem;
+        right: 0%;
+        bottom: 25%;
+    }
+    
+    /* Featured Episodes */
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .episodes-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .episode-card {
+        padding: 1.5rem;
+    }
+    
+    .episode-number {
+        font-size: 2.5rem;
+    }
+    
+    /* Why Listen Section */
+    .why-listen h2 {
+        font-size: 2rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+    
+    /* CTA Section */
+    .cta h2 {
+        font-size: 2rem;
+    }
+    
+    .cta p {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Small Tablets & Large Phones (576px and below) */
+@media screen and (max-width: 576px) {
+    
+    /* Navbar */
+    .navbar {
+        padding: 1rem 1rem;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .logo {
+        font-size: 1rem;
+        text-shadow: 2px 2px 0 var(--color-magenta), 4px 4px 0 var(--color-cyan);
+    }
+    
+    /* Hero */
+    .hero {
+        min-height: 80vh;
+        padding: 1rem;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+        text-shadow: 2px 2px 0 var(--color-magenta), 4px 4px 0 var(--color-cyan);
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+    }
+    
+    .disco-ball {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .btn {
+        padding: 0.7rem 1rem;
+        font-size: 0.8rem;
+        border: 2px solid var(--color-black);
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        box-shadow: 3px 3px 0 var(--color-black);
+    }
+    
+    .mic {
+        font-size: 2rem;
+        left: 2%;
+        bottom: 5%;
+    }
+    
+    .headphones {
+        font-size: 2rem;
+        right: 2%;
+        bottom: 10%;
+    }
+    
+    /* Featured Episodes */
+    .featured {
+        padding: 2rem 1rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .episode-card {
+        padding: 1rem;
+        box-shadow: 4px 4px 0 var(--color-black);
+    }
+    
+    .episode-card:hover {
+        box-shadow: 6px 6px 0 var(--color-black);
+    }
+    
+    .episode-number {
+        font-size: 2rem;
+    }
+    
+    .episode-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .episode-card p {
+        font-size: 0.9rem;
+    }
+    
+    /* Why Listen */
+    .why-listen {
+        padding: 2rem 1rem;
+    }
+    
+    .why-listen h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .feature {
+        padding: 1.5rem 1rem;
+        border: 2px solid var(--color-white);
+    }
+    
+    .feature-icon {
+        font-size: 2rem;
+    }
+    
+    .feature h3 {
+        font-size: 1.1rem;
+    }
+    
+    .feature p {
+        font-size: 0.85rem;
+    }
+    
+    /* CTA */
+    .cta {
+        padding: 2rem 1rem;
+        border: 6px solid var(--color-black);
+    }
+    
+    .cta h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cta p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .btn-large {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .footer-content {
+        padding: 0 1rem;
+    }
+    
+    .footer-section h3,
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+    
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+    
+    .social-links a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+    
+    .footer-bottom {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra Small Phones (375px and below) */
+@media screen and (max-width: 375px) {
+    
+    .logo {
+        font-size: 0.9rem;
+        text-shadow: 1px 1px 0 var(--color-magenta), 2px 2px 0 var(--color-cyan);
+        letter-spacing: 1px;
+    }
+    
+    .hero-title {
+        font-size: 1.4rem;
+        text-shadow: 1px 1px 0 var(--color-magenta), 2px 2px 0 var(--color-cyan);
+    }
+    
+    .hero-subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+    }
+    
+    .disco-ball {
+        font-size: 1.5rem;
+    }
+    
+    .hero-buttons {
+        gap: 0.5rem;
+    }
+    
+    .btn {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.75rem;
+        border: 1.5px solid var(--color-black);
+    }
+    
+    .section-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .episode-card h3 {
+        font-size: 1rem;
+    }
+    
+    .feature-icon {
+        font-size: 1.8rem;
+    }
+}
+
+/* Orientation: Landscape */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        min-height: 100vh;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-buttons {
+        gap: 0.5rem;
+    }
+}
+
+/* Large Screens (1200px and above) */
+@media screen and (min-width: 1200px) {
+    
+    .navbar {
+        padding: 1.5rem 3rem;
+    }
+    
+    .logo {
+        font-size: 1.8rem;
+    }
+    
+    .nav-links {
+        gap: 2.5rem;
+    }
+    
+    .hero-title {
+        font-size: 6rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+    
+    .disco-ball {
+        font-size: 6rem;
+    }
+    
+    .section-header h2 {
+        font-size: 3.5rem;
+    }
+    
+    .episodes-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .footer-content {
+        padding: 0 3rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .navbar,
+    .hero-graphics,
+    .cta {
+        display: none;
+    }
+    
+    .hero {
+        border: 2px solid black;
+        page-break-after: avoid;
+    }
+    
+    .section-header h2 {
+        page-break-before: avoid;
+    }
+    
+    footer {
+        border-top: 2px solid black;
+    }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: more) {
+    body {
+        color: #000;
+        background: #fff;
+    }
+    
+    .btn,
+    .episode-card,
+    .feature {
+        border-width: 3px;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: var(--gradient-dark);
+        color: var(--color-white);
+    }
+}
+
+/* Light Mode Support */
+@media (prefers-color-scheme: light) {
+    body {
+        background: #f0f0f0;
+    }
+    
+    .navbar {
+        background: #ffffff;
+    }
+}
+
+/* Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+    .btn {
+        padding: 1.2rem 2.2rem;
+    }
+    
+    .nav-links a {
+        padding: 0.5rem 1rem;
+    }
+    
+    .episode-card,
+    .feature {
+        box-shadow: 4px 4px 0 var(--color-black);
+    }
+}
