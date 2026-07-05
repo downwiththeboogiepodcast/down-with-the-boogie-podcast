@@ -1,0 +1,343 @@
+/* ========================================
+   ANIMATIONS - DOWN WITH THE BOOGIE
+   ======================================== */
+
+/* Slide In Down */
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Spin Animation - for disco ball */
+@keyframes spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+/* Float Animation - for mic and headphones */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+/* Bounce Animation - for feature icons */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Lightning Animation */
+@keyframes lightning {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 215, 0, 1);
+    }
+}
+
+/* Rainbow Text Animation */
+@keyframes rainbow {
+    0% {
+        color: #FFD700;
+    }
+    20% {
+        color: #FF1493;
+    }
+    40% {
+        color: #00E5FF;
+    }
+    60% {
+        color: #FF6B35;
+    }
+    80% {
+        color: #9D00FF;
+    }
+    100% {
+        color: #FFD700;
+    }
+}
+
+/* Shake Animation */
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+/* Slide In Left */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Slide In Right */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Scale Up */
+@keyframes scaleUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Rotate */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Color Shift - Changes between vibrant colors */
+@keyframes colorShift {
+    0% {
+        background-color: #FFD700;
+    }
+    25% {
+        background-color: #FF1493;
+    }
+    50% {
+        background-color: #00E5FF;
+    }
+    75% {
+        background-color: #FF6B35;
+    }
+    100% {
+        background-color: #FFD700;
+    }
+}
+
+/* Neon Glow */
+@keyframes neonGlow {
+    0%, 100% {
+        text-shadow: 
+            0 0 10px #FFD700,
+            0 0 20px #FF1493,
+            0 0 30px #00E5FF;
+    }
+    50% {
+        text-shadow: 
+            0 0 20px #FFD700,
+            0 0 30px #FF1493,
+            0 0 40px #00E5FF;
+    }
+}
+
+/* Slide Up */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Flicker - Like a neon sign */
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0.5;
+    }
+}
+
+/* Wave Animation */
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+/* Jiggle Animation */
+@keyframes jiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-2deg);
+    }
+    75% {
+        transform: rotate(2deg);
+    }
+}
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+/* Swing Animation */
+@keyframes swing {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
+}
+
+/* Slide and Fade */
+@keyframes slideAndFade {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Strobe - Quick on/off effect */
+@keyframes strobe {
+    0%, 19%, 21%, 100% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+}
+
+/* Wobble Animation */
+@keyframes wobble {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+    30% {
+        transform: translateX(5px) rotate(3deg);
+    }
+    45% {
+        transform: translateX(-5px) rotate(-3deg);
+    }
+    60% {
+        transform: translateX(3px) rotate(2deg);
+    }
+    75% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+}
+
+/* Zoom In */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Zoom Out */
+@keyframes zoomOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+}
